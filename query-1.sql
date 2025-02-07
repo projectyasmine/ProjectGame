@@ -24,3 +24,10 @@ CREATE TABLE pack (
     pack_end DATE,
     pack_name VARCHAR(100)
 );
+
+CREATE TABLE currency (
+    id_currency INT PRIMARY KEY,
+    currency VARCHAR(255),
+    symbole VARCHAR(50)
+);
+
